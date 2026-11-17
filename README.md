@@ -9,7 +9,7 @@ approves what matters.
 ![Claude](https://img.shields.io/badge/Claude-Opus%205.5%20%2B%20Sonnet%205.5-D97757)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?logo=docker&logoColor=white)
-[![CI](https://github.com/contract-s/Tether/actions/workflows/ci.yml/badge.svg)](https://github.com/contract-s/Tether/actions/workflows/ci.yml)
+[![CI](https://github.com/skodali31/tether/actions/workflows/ci.yml/badge.svg)](https://github.com/skodali31/tether/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 You give Tether a task in plain language. A **supervisor agent** turns it into a plan
@@ -134,7 +134,7 @@ expire stale memories, and delete individual memories or everything for a user.
 You need Docker and an [Anthropic API key](https://console.anthropic.com/).
 
 ```bash
-git clone https://github.com/contract-s/Tether.git
+git clone https://github.com/skodali31/tether.git
 cd Tether
 cp .env.example .env    # then set ANTHROPIC_API_KEY
 make stack              # builds and starts the API, worker, Postgres, Redis, ChromaDB, Jaeger
